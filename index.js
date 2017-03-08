@@ -9,9 +9,9 @@ app.use(express.static(__dirname + '/public'));
 
 // render page -----------------------------------------------------------------
 
-app.get('/', (req, res) => {
-  res.render('index');
-});
+// app.get('/', (req, res) => {
+//   res.render('index');
+// });
 
 // start server ----------------------------------------------------------------
 
