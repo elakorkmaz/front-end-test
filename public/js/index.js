@@ -9,7 +9,7 @@ $.getJSON( "https:bitbucket.org/nadjib-l1nda/front-end-test/raw/30ffd45f11ad6845
       var p11  = "<p>" + 'Title: ' + data[key].celebrations.title + "<p>";
       var p12  = "<p>" + 'Colour: ' + data[key].celebrations.title + "<p>";
       var p13  = "<p>" + 'Rank: ' + data[key].celebrations.title + "<p>";
-      var p14  = "<p>" + 'Rank number: ' + data[key].celebrations.title + "<p>";
+      var p14  = "<p>" + 'Rank number: ' + data[key].celebrations.title + "<p></div>";
       var p4   = "<p>" + 'Week day: ' + data[key].weekday + "</p><div>";
 
      $(".container").append(h2+div1+p1+p2+p3+div2+p11+p12+p13+p14+p4);
