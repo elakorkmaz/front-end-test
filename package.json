@@ -1,0 +1,23 @@
+{
+  "name": "front-end-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elakorkmaz/front-end-test.git"
+  },
+  "author": "Ela Korkmaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elakorkmaz/front-end-test/issues"
+  },
+  "homepage": "https://github.com/elakorkmaz/front-end-test#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  }
+}
