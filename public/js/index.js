@@ -17,13 +17,9 @@ $.getJSON( "https:bitbucket.org/nadjib-l1nda/front-end-test/raw/30ffd45f11ad6845
 });
 
 function main() {
-  $('.skillset').hide();
-  $('.skillset').fadeIn(500);
-
   $('.days').hide();
 
   $('.days-button').on('click', function() {
-//		$(this).next().toggle();
     $(this).next().slideToggle(100);
     $(this).toggleClass('active');
 	});
