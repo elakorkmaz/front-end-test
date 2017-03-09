@@ -23,7 +23,6 @@ $.getJSON("https:bitbucket.org/nadjib-l1nda/front-end-test/raw/30ffd45f11ad68457
       for(var i = 0; i < divs.length; i += 7) {
         divs.slice(i, i+7).wrapAll("<div class='btn-group'></div>");
       }
-
 });
 
 function main() {
@@ -51,6 +50,6 @@ $(document).ready(function(){
     });
 
     var numberItems = count;
-    $("#filter-count").text("Number of Comments = "+count);
+    $("#filter-count").text(count + ' items found');
   });
 });
