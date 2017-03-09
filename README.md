@@ -21,4 +21,4 @@ The data can be navigated in two different ways:
 Click on a specific date to expand the box and see more information. Additionally it is possible to click on the 'Celebrations' key to toggle more information about celebrations on that date.
 
 - Filter dates with the search bar
-Enter at least two characters in the search bar under the header of the page to show dates that contain your search query.
+Enter at least two characters in the search bar under the header of the page to show dates that contain the search query.
