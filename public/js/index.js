@@ -4,19 +4,17 @@ $.getJSON("https:bitbucket.org/nadjib-l1nda/front-end-test/raw/30ffd45f11ad68457
 
     var h5   = "<button class='btn btn-outline-primary' type='button'><h5 class='days-button'>" + val.date + "</h5>";
     var div1 = "<div class='days'>";
-    var p1   = "<p>" + 'Season: ' + val.season + "</p>";
-    var p2   = "<p>" + 'Week number: ' + val.season_week + "</p>";
-    var p3   = "<p class='days-button'>" + 'Celebrations: ' + '(click to expand)' + "</p>";
+    var p1   = "<p>" + 'Season: ' + val.season + "</p>" +
+               "<p>" + 'Week number: ' + val.season_week + "</p>" +
+               "<p class='days-button'>" + 'Celebrations: ' + '(click to expand)' + "</p>";
     var div2 = "<div class='days' id='celebrations'>";
-    var p11  = "<p>" + 'Title: ' + val.celebrations[0].title  + "</p>";
-    var p12  = "<p>" + 'Colour: ' + val.celebrations[0].colour + "</p>";
-    var p13  = "<p>" + 'Rank: ' + val.celebrations[0].rank + "</p>";
-    var p14  = "<p>" + 'Rank number: ' + val.celebrations[0].rank_num + "</p></div>";
-    var p4   = "<p>" + 'Week day: ' + val.weekday + "</p><div></button></div>";
+    var p11  = "<p>" + 'Title: ' + val.celebrations[0].title  + "</p>" +
+               "<p>" + 'Colour: ' + val.celebrations[0].colour + "</p>" +
+               "<p>" + 'Rank: ' + val.celebrations[0].rank + "</p>" +
+               "<p>" + 'Rank number: ' + val.celebrations[0].rank_num + "</p></div>";
+    var p2   = "<p>" + 'Week day: ' + val.weekday + "</p><div></button></div>";
 
-
-
-    var group = h5+div1+p1+p2+p3+div2+p11+p12+p13+p14+p4;
+    var group = h5+div1+p1+div2+p11+p2;
 
     $("#dates").append(group);
 
@@ -35,7 +33,6 @@ $(document).ready(function main() {
     $(this).toggleClass('active');
 	});
 });
-
 
 $(document).ready(function(){
   $("#filter").keyup(function(){
