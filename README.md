@@ -17,8 +17,8 @@ Open localhost:3000 in your browser and discover the app.
 
 The data can be navigated in two different ways:
 
-- Picking a date
+- Picking a date <br />
 Click on a specific date to expand the box and see more information. Additionally it is possible to click on the 'Celebrations' key to toggle more information about celebrations on that date.
 
-- Filter dates with the search bar
+- Filter dates with the search bar <br />
 Enter at least two characters in the search bar under the header of the page to show dates that contain the search query.

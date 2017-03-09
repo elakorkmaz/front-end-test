@@ -25,16 +25,15 @@ $.getJSON("https:bitbucket.org/nadjib-l1nda/front-end-test/raw/30ffd45f11ad68457
       }
 });
 
-function main() {
+$(document).ready(function main() {
   $('.days').hide();
 
   $('.days-button').on('click', function() {
     $(this).next().slideToggle(100);
     $(this).toggleClass('active');
 	});
-}
+});
 
-$(document).ready(main);
 
 $(document).ready(function(){
   $("#filter").keyup(function(){
