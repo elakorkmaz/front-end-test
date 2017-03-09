@@ -5,12 +5,22 @@
 .btn-group {
   padding: 25px;
   margin: 0 auto;
-  display: flex;
+  display: table;
   text-align: center;
+}
+
+.btn.btn-outline-primary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.days-button:hover {
+  color: red;
 }
 
 button p {
   text-align: left;
+  margin-bottom: 0;
 }
 
 .days-button {
@@ -23,4 +33,9 @@ button p {
 
 #celebrations p {
   margin-left: 25px;
+}
+
+#dates {
+  display: inline-table;
+  margin: 0 auto;
 }
