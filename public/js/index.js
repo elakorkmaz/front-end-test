@@ -32,9 +32,7 @@ $(document).ready(function main() {
     $(this).next().slideToggle(100);
     $(this).toggleClass('active');
 	});
-});
-
-$(document).ready(function(){
+  
   $("#filter").keyup(function(){
     var filter = $(this).val(), count = 0;
 
